@@ -1,1 +1,1 @@
-select * from raw.raw_sch.student
+select * from {{ source('my_new_project', 'STUDENT') }}

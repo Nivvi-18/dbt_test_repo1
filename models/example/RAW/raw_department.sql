@@ -1,1 +1,1 @@
-select * from raw.raw_sch.department
+select * from {{ source('my_new_project', 'DEPARTMENT') }}

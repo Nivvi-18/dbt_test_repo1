@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: my_new_project
+    database: RAW
+    schema: RAW_SCH
+    tables:
+      - name: STUDENT
+      - name: DEPARTMENT
+      - name: LOCATIONS

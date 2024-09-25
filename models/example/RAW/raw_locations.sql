@@ -1,1 +1,1 @@
-select * from raw.raw_sch.locations
+select * from {{ source('my_new_project', 'LOCATIONS') }}
