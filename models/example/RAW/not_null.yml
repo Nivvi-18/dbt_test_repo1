@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: raw_customers
+    columns:
+      - name: NAME
+        tests:
+          - not_null
+      - name: NAME
+        tests:
+          - accepted_values:
+              values: 
+                - 'Dinesh'
+                - 'Jeeva'
+                - 'Yeshwanth'
+
+          
+              

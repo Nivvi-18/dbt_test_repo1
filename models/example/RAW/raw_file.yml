@@ -6,5 +6,9 @@ sources:
     schema: RAW_SCH
     tables:
       - name: STUDENT
+        columns:
+          - name: NAME
+            tests:
+              - unique
       - name: DEPARTMENT
       - name: LOCATIONS

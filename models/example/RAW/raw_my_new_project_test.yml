@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: RAW_STUDENTS
+    columns:
+      - name: dep_id
+      - name: location_id
+        tests:
+          - unique
+              
